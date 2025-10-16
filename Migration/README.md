@@ -1,38 +1,52 @@
-# My App - David Salazar Saldarriaga
+# FitHub — Página del Gym
+Resumen
+- FitHub es una landing web para un gimnasio, desarrollada con HTML, CSS y JavaScript.
+- Enfoque: diseño limpio, accesible y responsivo para presentar servicios, clases y entrenadores.
+- Paleta principal: azules y blanco. Ejemplos de color: #0D6EF5, #0A58CA y #FFFFFF.
 
-Este es un proyecto de ejemplo creado con [React](https://react.dev/) y [Vite](https://vitejs.dev/) como parte del curso de Frontend 1 en CESDE.
+Características principales
+- Página de inicio con hero, beneficios y llamadas a la acción.
+- Sección de Clases: listado, horarios y filtros por tipo (cardio, fuerza, yoga).
+- Perfil de Entrenadores: fotos, especialidades y enlaces a redes.
+- Reservas y contacto: formulario con validaciones en cliente (JS).
+- Testimonios y galería de instalaciones.
+- Navegación fija y diseño adaptado a móvil.
 
-## Descripción
+Tecnologías
+- HTML5 — estructura semántica.
+- CSS3 — estilos modulares y responsive (Flexbox / Grid).
+- JavaScript — interactividad, validación y manipulación del DOM.
+- (Opcional) Live Server para desarrollo local.
 
-La aplicación incluye una página principal y una sección "Acerca de", con un encabezado de navegación. El objetivo es practicar la estructura de proyectos modernos en React, el uso de componentes y estilos CSS.
+Estructura recomendada (carpeta src)
+- src/
+  - index.html — punto de entrada.
+  - css/
+    - styles.css — estilos globales.
+    - components/ — estilos por componente (header, cards, footer).
+  - js/
+    - main.js — comportamiento global (menú, validaciones).
+    - api.js — gestión de reservas/localStorage.
+    - components/ — scripts independientes (slider, modal).
+  - assets/ — imágenes, iconos y fuentes.
 
-## Estructura del proyecto
+Guía de diseño
+- Colores: azul dominante y blanco como fondo secundario.
+- Tipografía: sans‑serif legible, tamaños responsivos y jerarquía clara.
+- Accesibilidad: texto con contraste suficiente, estados de foco visibles y etiquetas en formularios.
 
-- `src/components/`: Componentes reutilizables (por ejemplo, el encabezado).
-- `src/pages/`: Páginas principales de la aplicación.
-- `src/assets/`: Recursos estáticos como imágenes.
-- `public/`: Archivos públicos y estáticos.
+Ejecutar en local (Windows)
+- Abrir directamente: doble clic en `src/index.html`.
+- Usar Live Server en VS Code (recomendado).
+- Usar servidor simple desde la raíz del proyecto:
+  - PowerShell / CMD:
+    - npx http-server src -o
 
-## Scripts disponibles
-
-- `npm run dev`: Inicia el servidor de desarrollo.
-- `npm run build`: Genera una versión optimizada para producción.
-- `npm run preview`: Previsualiza la aplicación de producción.
-- `npm run lint`: Ejecuta ESLint para analizar el código.
-
-## Instalación
-
-1. Clona el repositorio.
-2. Ejecuta `npm install` para instalar las dependencias.
-3. Usa `npm run dev` para iniciar el entorno de desarrollo.
-
-## Autor
-
-David Salazar Saldarriaga
-
----
-Proyecto
-
+Buenas prácticas
+- Mantener separación HTML / CSS / JS.
+- Validar datos en cliente y servidor.
+- Optimizar imágenes y recursos para mobile.
+- Documentar componentes y estilos reutilizables.
 ⡴⠑⡄⠀⠀⠀⠀⠀⠀⠀⣀⣀⣤⣤⣤⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ 
 ⠸⡇⠀⠿⡀⠀⠀⠀⣀⡴⢿⣿⣿⣿⣿⣿⣿⣿⣷⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀ 
 ⠀⠀⠀⠀⠑⢄⣠⠾⠁⣀⣄⡈⠙⣿⣿⣿⣿⣿⣿⣿⣿⣆⠀⠀⠀⠀⠀⠀⠀⠀ 
